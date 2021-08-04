@@ -35,7 +35,7 @@ console.log(calculatePriceWithVAT(2, 9));
 
 //VAT exercise 2
 const calculateBasePrice = function(priceWithVAT, percVAT) {
-    const basePrice1 = priceWithVAT/(1 + percVAT/100); //berekening base price
+    const basePrice1 = priceWithVAT/((100 + percVAT) / 100);
     return basePrice1;
 }
 
